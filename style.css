@@ -1,0 +1,66 @@
+body
+{
+ margin:0;
+ padding:0;
+ font-family: sans-serif;
+ background-image :url(college.jpg);
+ background-size :cover;
+}
+.LoginBox
+{
+position: absolute;
+top:50%;
+left :50%;
+transform : translate(-50%,-50%);
+width:350px;
+height:420px;
+padding: 80px 40px;
+box-sizing: border-box;
+background: rgba(0,0,0,0.5);
+}
+h2{
+	margin:0;
+	padding: 0,0,20px;
+	color:#00ffef;
+	text-align: center;
+}
+.LoginBox p{
+	margin:0;
+	padding: 0;
+	font-weight: bold;
+	color:#32CD32;
+}
+.LoginBox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.LoginBox input[type="text"], .LoginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 16px;
+}
+.LoginBox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background:#00ced1;
+	cursor:pointer;
+	border-radius:20px;
+}
+	
+
+	
+	
+	
+	
+
+
+
